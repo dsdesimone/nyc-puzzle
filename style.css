@@ -47,54 +47,44 @@ body{
     font-size: 40px;
     text-align: center;
 }
-
+.photo{
+    background-size: 150px 150px;
+}
 .photo12{
     background-image: url("photos/12.jpg");
-    background-size: 150px 150px;
 }
 .photo11{
     background-image: url("photos/11.jpg");
-    background-size: 150px 150px;
 }
 .photo10{
     background-image: url("photos/10.jpg");
-    background-size: 150px 150px;
 }
 .photo9{
     background-image: url("photos/9.jpg");
-    background-size: 150px 150px;
 }
 .photo8{
     background-image: url("photos/8.jpg");
-    background-size: 150px 150px;
 }
 .photo7{
     background-image: url("photos/7.jpg");
-    background-size: 150px 150px;
 }
 .photo6{
     background-image: url("photos/6.jpg");
-    background-size: 150px 150px;
 }
 .photo5{
     background-image: url("photos/5.jpg");
-    background-size: 150px 150px;
 }
 .photo4{
     background-image: url("photos/4.jpg");
-    background-size: 150px 150px;
 }
 .photo3{
     background-image: url("photos/3.jpg");
-    background-size: 150px 150px;
 }
 .photo2{
     background-image: url("photos/2.jpg");
-    background-size: 150px 150px;
 }
 .photo1{
     background-image: url("photos/1.jpg");
-    background-size: 150px 150px;
 }
 
 footer{
@@ -120,6 +110,9 @@ footer{
     .principal__container{
         gap: 10px;
     }
+    .photo{
+        background-size: 120px 120px;
+    }
 }
 @media (max-width: 800px){
     .puzzle__site{
@@ -136,6 +129,9 @@ footer{
     .puzzle__pieces{
         width: 300px;
     }
+    .photo{
+        background-size: 90px 90px;
+    }
 }
 @media (max-width: 630px){
     .puzzle__site{
@@ -151,6 +147,9 @@ footer{
     }
     .puzzle__pieces{
         width: 210px;
+    }
+    .photo{
+        background-size: 60px 60px;
     }
 }
 @media (max-width: 446px){

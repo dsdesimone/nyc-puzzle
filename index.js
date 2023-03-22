@@ -37,7 +37,7 @@ ph12.addEventListener("drop", event => {
     
     if (id_photo === "ph12"){
         console.log("correcto")
-        ph12.classList.add("photo12")
+        ph12.classList.add("photo12", "photo")
         document.getElementById(id_photo).remove()
     }
 })
@@ -56,7 +56,7 @@ ph11.addEventListener("drop", event => {
     
     if (id_photo === "ph11"){
         console.log("correcto")
-        ph11.classList.add("photo11")
+        ph11.classList.add("photo11", "photo")
         document.getElementById(id_photo).remove()
     }
 })
@@ -75,7 +75,7 @@ ph10.addEventListener("drop", event => {
     
     if (id_photo === "ph10"){
         console.log("correcto")
-        ph10.classList.add("photo10")
+        ph10.classList.add("photo10", "photo")
         document.getElementById(id_photo).remove()
     }
 })
@@ -94,7 +94,7 @@ ph9.addEventListener("drop", event => {
     
     if (id_photo === "ph9"){
         console.log("correcto")
-        ph9.classList.add("photo9")
+        ph9.classList.add("photo9", "photo")
         document.getElementById(id_photo).remove()
     }
 })
@@ -114,7 +114,7 @@ ph8.addEventListener("drop", event => {
     
     if (id_photo === "ph8"){
         console.log("correcto")
-        ph8.classList.add("photo8")
+        ph8.classList.add("photo8", "photo")
         document.getElementById(id_photo).remove()
     }
 })
@@ -133,7 +133,7 @@ ph7.addEventListener("drop", event => {
     
     if (id_photo === "ph7"){
         console.log("correcto")
-        ph7.classList.add("photo7")
+        ph7.classList.add("photo7", "photo")
         document.getElementById(id_photo).remove()
     }
 })
@@ -153,7 +153,7 @@ ph6.addEventListener("drop", event => {
     
     if (id_photo === "ph6"){
         console.log("correcto")
-        ph6.classList.add("photo6")
+        ph6.classList.add("photo6", "photo")
         document.getElementById(id_photo).remove()
     }
 })
@@ -172,7 +172,7 @@ ph5.addEventListener("drop", event => {
     
     if (id_photo === "ph5"){
         console.log("correcto")
-        ph5.classList.add("photo5")
+        ph5.classList.add("photo5", "photo")
         document.getElementById(id_photo).remove()
     }
 })
@@ -191,7 +191,7 @@ ph4.addEventListener("drop", event => {
     
     if (id_photo === "ph4"){
         console.log("correcto")
-        ph4.classList.add("photo4")
+        ph4.classList.add("photo4", "photo")
         document.getElementById(id_photo).remove()
     }
 })
@@ -210,7 +210,7 @@ ph3.addEventListener("drop", event => {
     
     if (id_photo === "ph3"){
         console.log("correcto")
-        ph3.classList.add("photo3")
+        ph3.classList.add("photo3", "photo")
         document.getElementById(id_photo).remove()
     }
 })
@@ -229,7 +229,7 @@ ph2.addEventListener("drop", event => {
     
     if (id_photo === "ph2"){
         console.log("correcto")
-        ph2.classList.add("photo2")
+        ph2.classList.add("photo2", "photo")
         document.getElementById(id_photo).remove()
     }
 })
@@ -248,7 +248,7 @@ ph1.addEventListener("drop", event => {
     
     if (id_photo === "ph1"){
         console.log("correcto")
-        ph1.classList.add("photo1")
+        ph1.classList.add("photo1", "photo")
         document.getElementById(id_photo).remove()
     }
 })
